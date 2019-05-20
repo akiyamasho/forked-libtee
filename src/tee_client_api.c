@@ -14,6 +14,8 @@
 ** limitations under the License.                                           **
 *****************************************************************************/
 
+#pragma GCC diagnostic ignored "-Wself-assign"
+
 #include <errno.h>
 #include <fcntl.h>
 #include <pthread.h>
